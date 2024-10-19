@@ -75,6 +75,9 @@ let buttons = {
     delete: document.getElementById("delete").onclick = function (){
         document.getElementById("math").textContent = '';
         document.getElementById("result").textContent = '';
+        livepreview = "";
+        result = "";
+        convertedResult = "";
         input.length = 0;
     }
 
